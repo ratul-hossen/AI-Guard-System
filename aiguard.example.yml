@@ -1,0 +1,19 @@
+# AI Guard Configuration File
+root: ~/AI Guard/AI Guard System/test_project
+mountpoint: ~/.aiguard/mnt/test_project
+log: ~/.aiguard/logs/access.jsonl
+
+mode: enforce                             # enforce | audit
+
+deny:                                     # fnmatch patterns
+  - ".env"
+  - ".env.*"
+  - "*.pem"
+  - "id_rsa*"
+  - "secrets"                             # a whole directory
+  - "*.pdf"                               # any .pdf at any depth
+  - "*.docx"
+
+sandbox:
+  env_allow: [PATH, TERM, LANG]           # only these environment variables enter the sandbox
+  binds: []                               # extra host directories to bind: "src[:dest[:ro|rw]]"

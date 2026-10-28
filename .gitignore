@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# AI Guard logs, telemetry & runtime mounts
+.aiguard/
+.aiguardignore
+aiguard-log.sh
+*.jsonl
+*.log
+access.jsonl
+access.json
+
+# Audio and media explanation files
+*.mp3
+*.wav
+*.ogg
+
+# Temporary symlinks/hardlinks/payloads from benchmark runs
+_link_*
+_hlink_*
+*.dat
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+# Research and documentation resources
+Research Paper Resource/
