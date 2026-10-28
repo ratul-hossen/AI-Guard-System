@@ -47,3 +47,7 @@ _hlink_*
 Thumbs.db
 # Research and documentation resources
 Research Paper Resource/
+
+# Archives and bundled zips
+*.zip
+*.tar.gz
