@@ -1,4 +1,4 @@
-# AI Guard
+# AI Guard System
 
 A selective filesystem-level mediation layer and access telemetry monitor designed to protect sensitive files from unauthorized access and exfiltration by autonomous coding agents.
 
